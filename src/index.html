@@ -6,7 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style/output.css" />
   </head>
-  <body class="overflow-hidden">
+  <body>
     <!---------------------------HOME---------------------------->
     <div class="bg-[#F0F4F8]">
       <header
@@ -58,12 +58,12 @@
         />
         <a href="#">
           <img
-            class="w-[158.26px ] ss:w-[227.5px]"
+            class="w-[170px] mt-2 ss:w-[227.5px]"
             src="./images/logo.png"
             alt=""
         /></a>
         <ul
-          class="absolute z-10 flex text-[20px] px-2 gap-2 font-ubuntu text-blue font-[400] mx-auto bottom-3 sm:relative sm:-bottom-2 sm:text-[18px] md:bottom-1"
+          class="absolute z-10 flex text-[16px] px-2 gap-2 font-ubuntu text-blue font-[400] mx-auto bottom-3 sm:relative sm:-bottom-2 sm:text-[18px] md:bottom-1"
         >
           <li><a href="#">Инвестиции</a></li>
           <li><a href="#">Рассрочка</a></li>
@@ -87,7 +87,7 @@
           >
 
           <button
-            class="text-[#FFFFFF] bg-blue w-[147px] h-[48px] flex justify-center items-center rounded-tl-[16px] rounded-br-[16px] ss:rounded-tl-[20px] ss:rounded-br-[20px] ss:w-[174px]"
+            class="text-[#FFFFFF] bg-blue w-[137px] text-[13px] h-[48px] flex justify-center items-center rounded-tl-[16px] rounded-br-[16px] ss:rounded-tl-[20px] ss:rounded-br-[20px] ss:w-[174px] sm:text-[14px]"
           >
             Личный Кабинет
           </button>
@@ -99,10 +99,10 @@
         </div>
       </nav>
       <div
-        class="max-w-[1620px] w-full h-[500px] flex justify-between items-center mx-auto"
+        class="px-4 max-w-[1620px] w-full flex justify-between items-center mx-auto sm:h-[500px]"
       >
         <div
-          class="relative h-[380px] w-[187.5px] hidden justify-center items-center xl:flex"
+          class="relative h-[380px] w-[187.5px] hidden justify-center items-center xl:flex xl:ml-[-50px]"
         >
           <img
             class="absolute top-0 w-[32px] right-0"
@@ -118,15 +118,18 @@
         </div>
 
         <div
-          class="relative max-w-[1245px] w-full flex items-center justify-center mt-10"
+          class="relative max-w-[1245px] w-full mx-auto items-center justify-center mt-5 sm:flex sm:mt-0 xl:ml-[48px] md:mt-8"
         >
           <a
             href="#"
-            class="absolute top-0 left-10 flex gap-2 items-center justify-center text-[10px] font text-secondary"
+            class="absolute -top-2 flex gap-2 items-center justify-center text-[10px] font text-secondary left-0"
             >главная<img src="./images/CaretLeft.png" alt="" />инвестиции</a
           >
-          <div class="w-[667px]">
-            <h1 class="text-[44px] font-[700] font-ubuntu">
+
+          <div class="w-[339px] xs:w-[90%] md:w-[700px]">
+            <h1
+              class="text-[32px] mt-5 font-[700] font-ubuntu sm:mt-0 ss:text-[38px] md:text-[44px]"
+            >
               Максимальная доля прибыли по вкладам
               <span class="text-blue">НурФинанс</span>
             </h1>
@@ -135,34 +138,183 @@
             </p>
             <div class="flex items-center mt-5 gap-5">
               <button
-                class="text-[#FFFFFF] bg-blue w-[147px] h-[68px] flex justify-center items-center rounded-tl-[16px] rounded-br-[16px] ss:rounded-tl-[28px] ss:rounded-br-[28px] ss:w-[300px]"
+                class="text-[#FFFFFF] bg-blue w-[242px] h-[50px] flex justify-center items-center rounded-tl-[16px] rounded-br-[16px] ss:rounded-tl-[28px] ss:rounded-br-[28px] sm:w-[257px] md:w-[300px] sm:h-[68px] ss:w-[250px]"
               >
                 Инвестиционные продукты
               </button>
-              <img src="./images/carusel.png" alt="" />
+              <img
+                class="absolute -bottom-5 ml-[38%] sm:hidden sm:relative sm:bottom-0 sm:ml-0 ms:block"
+                src="./images/carusel.png"
+                alt=""
+              />
             </div>
           </div>
-          <img src="./images/main.png" alt="" />
+          <img
+            src="./images/main.png"
+            class="mt-5 mx-auto w-[312px] sm:w-[400px] md:w-auto"
+            alt=""
+          />
         </div>
 
         <div
           class="relative hidden h-[380px] w-[187.5px] justify-center items-center xl:flex"
         >
-          <img src="./images/circile3.png" alt="" />
-          <img src="./images/circile4.png" alt="" />
-          <img src="./images/circile4.png" alt="" />
-          <img src="./images/circile5.png" alt="" />
+          <img class="absolute -left-1" src="./images/circile3.png" alt="" />
+          <img class="absolute top-10" src="./images/circile4.png" alt="" />
+          <img
+            class="absolute top-32 right-0 w-[23px]"
+            src="./images/circile4.png"
+            alt=""
+          />
+          <img
+            class="absolute right-0 bottom-0"
+            src="./images/circile5.png"
+            alt=""
+          />
         </div>
       </div>
     </div>
 
-    <div class="max-w-[1245px] w-full mx-auto">
-      <div class="w-[]">
-        <h1></h1>
-        <!---------------------------ABOUT---------------------------->
-        <!---------------------------CONTACT---------------------------->
-        <!---------------------------FOOTER---------------------------->
+    <div class="max-w-[1368px] w-full mx-auto mt-20">
+      <div
+        class="px-5 max-w-[1245px] w-full mx-auto grid ss:grid-cols-2 ms:grid-cols-4 gap-12"
+      >
+        <div class="flex ss:mx-auto">
+          <div class="relative w-[70px]">
+            <img
+              class="absolute w-[30px] -left-2 -top-2 rotate-12"
+              src="./images/circile1.png"
+              alt=""
+            />
+            <img class="absolute" src="./images/Coin (1).png" alt="" />
+          </div>
+          <p class="w-[209px] text-[16px] font-ubuntu font-[400]">
+            Накапливайте, принося пользу обществу
+          </p>
+        </div>
+        <div class="flex ss:mx-auto">
+          <div class="relative w-[70px]">
+            <img
+              class="absolute w-[30px] -left-2 -top-2 rotate-12"
+              src="./images/circile1.png"
+              alt=""
+            />
+            <img class="absolute" src="./images/Wallet.png" alt="" />
+          </div>
+          <p class="w-[209px] text-[16px] font-ubuntu font-[400]">
+            Зарабатывайте честно и справедливо
+          </p>
+        </div>
+        <div class="flex ss:mx-auto">
+          <div class="relative w-[70px]">
+            <img
+              class="absolute w-[30px] -left-2 -top-2 rotate-12"
+              src="./images/circile1.png"
+              alt=""
+            />
+            <img class="absolute" src="./images/ChartBar.png" alt="" />
+          </div>
+          <p class="w-[209px] text-[16px] font-ubuntu font-[400]">
+            Вкладывайте в реальные проверенные сделки
+          </p>
+        </div>
+        <div class="flex ss:mx-auto">
+          <div class="relative w-[70px]">
+            <img
+              class="absolute w-[30px] -left-2 -top-2 rotate-12"
+              src="./images/circile1.png"
+              alt=""
+            />
+            <img class="absolute" src="./images/ShieldChevron.png" alt="" />
+          </div>
+          <p class="w-[209px] text-[16px] font-ubuntu font-[400]">
+            Обеспечьте вложения надежными активами
+          </p>
+        </div>
       </div>
+
+      <div
+        class="max-w-[1368px] px-8 pt-10 ms:h-[664px] mt-14 sm:mt-32 bg-[#F0F4F8] rounded-[32px] rounded-tl-[64px] sm:rounded-r-[6px] sm:rounded-bl-[6px] rounded-br-[64px] sm:pt-32 sm:px-[55px]"
+      >
+        <p
+          class="w-[339px] sm:w-[400px] text-[28px] sm:text-[34px] font-ubuntu font-[400]"
+        >
+          Рассчитай свои накопления и доход
+        </p>
+        <div
+          class="flex flex-col sm:flex-row justify-center items-center gap-10"
+        >
+          <div class="mt-[50px] -ml-7">
+            <label class="">
+              <span class="flex justify-between w-[339px] sd:w-[450px]"
+                >Сумма вклада <span>1 000 000 ₽</span></span
+              >
+              <input class="w-[339px] sd:w-[450px] bg-blue" type="range" />
+            </label>
+            <label class="">
+              <span class="flex justify-between w-[339px] sd:w-[450px] mt-5"
+                >Срок инвестирования<span>24 месяца</span></span
+              >
+              <input
+                value="70"
+                class="w-[339px] sd:w-[450px] bg-blue"
+                type="range"
+              />
+            </label>
+            <p>Порядок выплаты дохода</p>
+            <div class="mt-5 flex gap-2">
+              <label
+                class="flex justify-center items-center w-[165.08px] sd:w-[224px] h-[49px] border border-[#C6D9E9] rounded-tl-2xl rounded-br-2xl hover:bg-white hover:text-black transition duration-300"
+              >
+                <input class="" type="checkbox" name="" id="" />Ежемесячно
+              </label>
+              <label
+                class="flex justify-center items-center w-[165.08px] sd:w-[224px] h-[49px] border border-[#C6D9E9] rounded-tl-2xl rounded-br-2xl hover:bg-white hover:text-black transition duration-300"
+              >
+                <input class="" type="checkbox" name="" id="" />В конце срока
+              </label>
+            </div>
+            <label class="">
+              <span class="flex justify-between w-[339px] sd:w-[460px] mt-5"
+                >Пополнение вклада<span><b>30 000 ₽ </b>/в месяц</span></span
+              >
+              <input
+                value="70"
+                class="w-[339px] sd:w-[460px] bg-blue"
+                type="range"
+              />
+            </label>
+          </div>
+          <div class="relative hidden ms:block">
+            <img class="absolute" src="./images/chartBg.png" alt="" />
+            <img src="./images/chart.png" alt="" />
+          </div>
+          <div
+            class="w-[110%] xs:w-[309px] xs:h-[374px] bg-white rounded-[10px] xs:rounded-br-[120px] flex flex-col justify-center pl-10 mb-5 pb-3"
+          >
+            <div class="flex gap-5 xs:flex-col mb-5 mt-5">
+              <h1 class="text-blue text-[36px] font-[700]">
+                12,5%
+                <p class="text-[14px] text-black">Доходность</p>
+              </h1>
+              <h1 class="text-blue text-[36px] font-[700]">
+                282 366 ₽
+                <p class="text-[14px] text-black">Сумма доходности</p>
+              </h1>
+            </div>
+            <h1 class="text-blue text-[36px] font-[700]">
+              1 282 366 ₽
+              <p class="text-[14px] text-black">Итоговая сумма</p>
+            </h1>
+            <button
+              class="-ml-5 w-full bg-blue xs:w-[190px] h-[63px] mt-5 text-white text-[16px] font-ubuntu rounded-br-[28px] rounded-tl-[28px]"
+            >
+              Инвестировать
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="mt-20"></div>
     </div>
     <script src="./js/Content.js"></script>
   </body>
