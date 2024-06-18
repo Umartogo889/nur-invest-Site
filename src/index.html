@@ -6,27 +6,164 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style/output.css" />
   </head>
-  <body>
-    <div class="w-full flex justify-center items-center">
-      <div class="container h-[100vh] w-full">
-        <!---------------------------HOME---------------------------->
-        <header>
-          <nav class="relative top-10 flex justify-around items-center w-full">
-            <div>
-              <a href="#" class="text-2xl">Logo</a>
+  <body class="overflow-hidden">
+    <!---------------------------HOME---------------------------->
+    <div class="bg-[#F0F4F8]">
+      <header
+        class="ms:px-3 ms:max-w-[1245px] w-full mx-auto flex items-center justify-between py-3 text-secondary ms:border-b ms:border-[#CBD8E9]"
+      >
+        <span class="mt-5 ms:mt-0 text-[14px] hidden ms:block font-[400]"
+          >Инвестиционно-финансовая компания</span
+        >
+        <span
+          class="mt-5 ml-2 ms:mt-0 hidden gap-1 justify-center text-[14px] w-[110px] font-ubuntu items-center ms:flex"
+          ><img src="./images/NavigationArrow.png" alt="" />Город Казань
+        </span>
+        <ul
+          class="-translate-x-full transition duration-500 absolute gap-5 w-[50%] justify-center flex flex-col bg-[#000000aa] top-0 h-[100vh] items-center mx-auto text-[13px] z-50 sm:translate-x-0 sm:gap-2 sm:w-auto sm:bg-transparent sm:flex-row sm:h-auto sm:relative"
+          id="hed_item"
+        >
+          <li id="back-btn">
+            <img
+              src="./images/x.svg"
+              class="absolute top-5 right-10 sm:hidden"
+              alt=""
+            />
+          </li>
+          <li class="hed_item"><a href="#">О компании</a></li>
+          <li class="hed_item"><a href="#">Отзывы</a></li>
+          <li class="hed_item"><a href="#">Халяль подробно</a></li>
+          <li class="hed_item"><a href="#">Отчетность</a></li>
+          <li class="hed_item"><a href="#">Наши партнеры</a></li>
+          <li class="hed_item"><a href="#">Сотрудничество</a></li>
+          <li class="hed_item">
+            <a href="#" class="flex gap-2 items-center"
+              >Контакты <img src="./images/MapTrifold.png" alt=""
+            /></a>
+          </li>
+        </ul>
+        <select name="" id="" class="rounded-sm mr-4 ms:mr-0 hidden sm:block">
+          <option value="Ru">Ru</option>
+          <option value="EN">EN</option>
+        </select>
+      </header>
+      <nav
+        class="relative max-w-[1245px] px-2 w-full mx-auto flex items-start justify-between py-3 text-secondary border-b border-[#CBD8E9] sm:border-none sm:justify-between ms:items-center ss:px-4"
+      >
+        <img
+          src="./images/List.png"
+          id="burger"
+          class="sm:hidden mr-2 w-40px] mt-1"
+          alt=""
+        />
+        <a href="#">
+          <img
+            class="w-[158.26px ] ss:w-[227.5px]"
+            src="./images/logo.png"
+            alt=""
+        /></a>
+        <ul
+          class="absolute z-10 flex text-[20px] px-2 gap-2 font-ubuntu text-blue font-[400] mx-auto bottom-3 sm:relative sm:-bottom-2 sm:text-[18px] md:bottom-1"
+        >
+          <li><a href="#">Инвестиции</a></li>
+          <li><a href="#">Рассрочка</a></li>
+          <li><a href="#">Калькулятор</a></li>
+          <li>
+            <img
+              class="w-[27px] sm:w-[24px] ml-3"
+              src="./images/search.png"
+              alt=""
+            />
+          </li>
+        </ul>
+
+        <div
+          class="flex items-center justify-center gap-4 sm:relative mt-0 mb-12 sm:mb-0"
+        >
+          <a
+            href="tel:88002700700"
+            class="items-center gap-1 hidden text-[16px] font-ubuntu font-[500] text-blue md:flex"
+            ><img src="./images/Phone.png" alt="" />8 800 2700 700</a
+          >
+
+          <button
+            class="text-[#FFFFFF] bg-blue w-[147px] h-[48px] flex justify-center items-center rounded-tl-[16px] rounded-br-[16px] ss:rounded-tl-[20px] ss:rounded-br-[20px] ss:w-[174px]"
+          >
+            Личный Кабинет
+          </button>
+          <button
+            class="hidden bg-white text-blue w-[174px] h-[48px] ms:flex justify-center items-center rounded-tl-[20px] rounded-br-[20px]"
+          >
+            Онлайн-заявка
+          </button>
+        </div>
+      </nav>
+      <div
+        class="max-w-[1620px] w-full h-[500px] flex justify-between items-center mx-auto"
+      >
+        <div
+          class="relative h-[380px] w-[187.5px] hidden justify-center items-center xl:flex"
+        >
+          <img
+            class="absolute top-0 w-[32px] right-0"
+            src="./images/circile1.png"
+            alt=""
+          />
+          <img
+            class="absolute w-[72px] ml-20 bottom-1"
+            src="./images/circile2.png"
+            alt=""
+          />
+          <img class="absolute w-[73px]" src="./images/circile1.png" alt="" />
+        </div>
+
+        <div
+          class="relative max-w-[1245px] w-full flex items-center justify-center mt-10"
+        >
+          <a
+            href="#"
+            class="absolute top-0 left-10 flex gap-2 items-center justify-center text-[10px] font text-secondary"
+            >главная<img src="./images/CaretLeft.png" alt="" />инвестиции</a
+          >
+          <div class="w-[667px]">
+            <h1 class="text-[44px] font-[700] font-ubuntu">
+              Максимальная доля прибыли по вкладам
+              <span class="text-blue">НурФинанс</span>
+            </h1>
+            <p class="text-[18px] font-ubuntu font-[400] mt-5">
+              Инвестор получает наибольший капитализированный доход
+            </p>
+            <div class="flex items-center mt-5 gap-5">
+              <button
+                class="text-[#FFFFFF] bg-blue w-[147px] h-[68px] flex justify-center items-center rounded-tl-[16px] rounded-br-[16px] ss:rounded-tl-[28px] ss:rounded-br-[28px] ss:w-[300px]"
+              >
+                Инвестиционные продукты
+              </button>
+              <img src="./images/carusel.png" alt="" />
             </div>
-            <ul class="flex gap-8 font-roboto">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Skills</a></li>
-            </ul>
-          </nav>
-        </header>
+          </div>
+          <img src="./images/main.png" alt="" />
+        </div>
+
+        <div
+          class="relative hidden h-[380px] w-[187.5px] justify-center items-center xl:flex"
+        >
+          <img src="./images/circile3.png" alt="" />
+          <img src="./images/circile4.png" alt="" />
+          <img src="./images/circile4.png" alt="" />
+          <img src="./images/circile5.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="max-w-[1245px] w-full mx-auto">
+      <div class="w-[]">
+        <h1></h1>
         <!---------------------------ABOUT---------------------------->
         <!---------------------------CONTACT---------------------------->
         <!---------------------------FOOTER---------------------------->
       </div>
     </div>
+    <script src="./js/Content.js"></script>
   </body>
 </html>

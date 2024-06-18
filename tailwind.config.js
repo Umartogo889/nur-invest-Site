@@ -7,11 +7,12 @@ module.exports = {
     extend: {
       fontFamily: {
         inter: [" 'Inter', sans-serif"],
-        roboto: [" 'Roboto', sans-serif;"]
+        roboto: [" 'Roboto', sans-serif;"],
+        ubuntu: ['"Ubuntu", "sans-serif"']
       },
       colors: {
-        primary: "#00040f" /** dark */,
-        secondary: "#00f6ff" /** blue */,
+        blue: "#0000DE" /** blue */,
+        secondary: "#6E9BB8",
         LightWhite: "rgb(255, 255, 255, 0.7)",
         LightBlue: "rgb(9, 151, 124, 0.1)"
       },
@@ -20,8 +21,9 @@ module.exports = {
         ss: "620px",
         sm: "768px",
         md: "1060px",
+        ms: '1142px',
         lg: "1200px",
-        xl: "1700px"
+        xl: "1500px"
       }
     },
     accentColor: ({ theme }) => ({
