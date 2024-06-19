@@ -16,3 +16,6 @@
 .toggle {
     @apply translate-x-0;
 }
+.show_text {
+    @apply h-auto;
+}

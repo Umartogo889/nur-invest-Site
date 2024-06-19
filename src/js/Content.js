@@ -12,3 +12,18 @@ function hideMenu() {
 
 burger.addEventListener("click", showMenu)
 BackBtn.addEventListener("click", hideMenu)
+
+
+const textAbo = document.getElementById("text_abo")
+const open_text = document.getElementById("open_text")
+
+open_text.addEventListener("click", () => {
+    if (textAbo.classList.contains("show_text")) {
+        textAbo.classList.remove("show_text")
+        open_text.textContent = "Чистать полностью"
+    }
+    else {
+        textAbo.classList.add("show_text")
+        open_text.textContent = "скрыть текст"
+    }
+})
