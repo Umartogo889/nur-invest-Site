@@ -740,10 +740,6 @@ video {
   margin-right: auto;
 }
 
-.-ml-1{
-  margin-left: -0.25rem;
-}
-
 .-ml-10{
   margin-left: -2.5rem;
 }
@@ -912,6 +908,10 @@ video {
   margin-top: 1.25rem;
 }
 
+.mt-52{
+  margin-top: 13rem;
+}
+
 .mt-6{
   margin-top: 1.5rem;
 }
@@ -930,18 +930,6 @@ video {
 
 .mt-\[50px\]{
   margin-top: 50px;
-}
-
-.mt-32{
-  margin-top: 8rem;
-}
-
-.mt-52{
-  margin-top: 13rem;
-}
-
-.-ml-2{
-  margin-left: -0.5rem;
 }
 
 .flex{
@@ -1032,6 +1020,10 @@ video {
   width: 123px;
 }
 
+.w-\[1250px\]{
+  width: 1250px;
+}
+
 .w-\[133px\]{
   width: 133px;
 }
@@ -1076,10 +1068,6 @@ video {
   width: 195.32px;
 }
 
-.w-\[20\.84px\]{
-  width: 20.84px;
-}
-
 .w-\[206px\]{
   width: 206px;
 }
@@ -1114,6 +1102,10 @@ video {
 
 .w-\[312px\]{
   width: 312px;
+}
+
+.w-\[329px\]{
+  width: 329px;
 }
 
 .w-\[32px\]{
@@ -1152,6 +1144,10 @@ video {
   width: 60%;
 }
 
+.w-\[600px\]{
+  width: 600px;
+}
+
 .w-\[646px\]{
   width: 646px;
 }
@@ -1188,10 +1184,6 @@ video {
   width: 100%;
 }
 
-.w-\[329px\]{
-  width: 329px;
-}
-
 .max-w-\[1001px\]{
   max-width: 1001px;
 }
@@ -1200,16 +1192,16 @@ video {
   max-width: 1245px;
 }
 
+.max-w-\[1250px\]{
+  max-width: 1250px;
+}
+
 .max-w-\[1298px\]{
   max-width: 1298px;
 }
 
 .max-w-\[1368px\]{
   max-width: 1368px;
-}
-
-.max-w-\[1388px\]{
-  max-width: 1388px;
 }
 
 .max-w-\[1620px\]{
@@ -1297,6 +1289,10 @@ video {
 
 .overflow-hidden{
   overflow: hidden;
+}
+
+.overflow-y-scroll{
+  overflow-y: scroll;
 }
 
 .rounded-\[100px\]{
@@ -1551,10 +1547,6 @@ video {
   padding-right: 1.25rem;
 }
 
-.pr-8{
-  padding-right: 2rem;
-}
-
 .pt-10{
   padding-top: 2.5rem;
 }
@@ -1649,6 +1641,10 @@ video {
 
 .text-\[37px\]{
   font-size: 37px;
+}
+
+.font-\[300\]{
+  font-weight: 300;
 }
 
 .font-\[400\]{
@@ -1892,12 +1888,12 @@ video {
     margin-left: 1.25rem;
   }
 
-  .ss\:mt-20{
-    margin-top: 5rem;
-  }
-
   .ss\:mt-10{
     margin-top: 2.5rem;
+  }
+
+  .ss\:mt-20{
+    margin-top: 5rem;
   }
 
   .ss\:flex{
@@ -1963,10 +1959,6 @@ video {
   .ss\:px-4{
     padding-left: 1rem;
     padding-right: 1rem;
-  }
-
-  .ss\:pr-8{
-    padding-right: 2rem;
   }
 
   .ss\:pr-3{
@@ -2330,16 +2322,16 @@ video {
     margin-top: 5rem;
   }
 
+  .md\:mt-32{
+    margin-top: 8rem;
+  }
+
   .md\:mt-8{
     margin-top: 2rem;
   }
 
   .md\:flex{
     display: flex;
-  }
-
-  .md\:h-\[600px\]{
-    height: 600px;
   }
 
   .md\:h-\[620px\]{
@@ -2546,6 +2538,10 @@ video {
 
   .lg\:gap-5{
     gap: 1.25rem;
+  }
+
+  .lg\:overflow-y-visible{
+    overflow-y: visible;
   }
 
   .lg\:border-4{

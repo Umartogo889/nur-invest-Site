@@ -249,24 +249,18 @@
       </div>
     </div>
   </div>
-  <!-- main  chart 
-    <div class="max-w-[1388px] w-full mx-auto">
-      <div>
-        <div>
-          <h2>Доходность</h2>
-          <p>
-            Доходность портфеля компании и инвестиционных вкладов «Нурфинанс» в
-            % годовых за последние 11 месяцев
-          </p>
-        </div>
+  <!-- main chart  -->
+  <div class="max-w-[1250px] overflow-y-scroll lg:overflow-y-visible  mx-auto mt-10 md:mt-32  ">
+    <div class="text-[34px] font-ubuntu mt-10 ml-3">
+      <h1>Доходность</h1>
+      <p class="text-[20px] text-[#6489A0] mt-5 font-[300] w-[600px]">Доходность портфеля компании и инвестиционных
+        вкладов «Нурфинанс»
+        в % годовых за последние 11 месяцев</p>
+    </div>
+    <div class="w-[1250px] mt-14" id="chart"></div>
+  </div>
 
-        <div>
-          <p><input type="radio" class="w-[20.84px]" />Общая доходность</p>
-        </div>
-      </div>
-    </div> -->
-
-  <div class="max-w-[1298px]  w-full mx-auto">
+  <div class="max-w-[1298px]  mt-20 w-full mx-auto">
 
     <div class="text-[#6489A0] sd:flex items-center justify-between mt-10 px-5">
       <div>
@@ -680,7 +674,7 @@
       </div>
     </div>
   </div>
-
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
   <script src="./js/chart.js"></script>
   <script src="./js/Content.js"></script>
 </body>
