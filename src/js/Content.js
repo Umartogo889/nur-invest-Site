@@ -27,3 +27,15 @@ open_text.addEventListener("click", () => {
         open_text.textContent = "скрыть текст"
     }
 })
+
+const faqBtn = document.querySelectorAll(".faq-btn")
+
+faqBtn.forEach(btn => {
+    btn.addEventListener("click", () => {
+        btn.classList.toggle("active")
+    })
+})
+
+
+
+

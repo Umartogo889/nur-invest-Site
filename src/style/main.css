@@ -19,3 +19,6 @@
 .show_text {
     @apply h-auto;
 }
+.active {
+    @apply h-auto;
+}
